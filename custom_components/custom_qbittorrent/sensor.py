@@ -75,7 +75,7 @@ class QbittorrentSensor(Entity):
         """Initialize the sensor."""
         self._name = SENSOR_TYPES[sensor_type][0]
         self._state = None
-        self._available = False
+        self._available = True
         self.client = client
         self._attribute = {}
         self._unit_of_measurement = SENSOR_TYPES[sensor_type][1]
