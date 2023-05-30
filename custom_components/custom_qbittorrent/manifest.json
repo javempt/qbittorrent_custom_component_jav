@@ -5,6 +5,6 @@
   "dependencies": [],
   "documentation": "https://github.com/radsonpatrick/qbittorrent_custom_component",
   "iot_class": "local_polling",
-  "requirements": ["qbittorrent-api==2023.3.44"],
+  "requirements": ["qbittorrent-api==2023.3.69"],
   "version": "0.1.0"
 }
